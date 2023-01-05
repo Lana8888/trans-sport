@@ -33,16 +33,16 @@
 <i>Допущение: считаем, что Buying Service (1-N) и Products Service уже интегрированы между собою и в текущем контексте эту интеграцию не рассматриваем и не изменяем.</i>
 
 ### Интеграции на приложение фронта ###
-1. <b>Buying Service (1-N) - User Front (Browser, Mobile)</b>:
-2. <b>Sport Service (1-M) - User Front (Browser, Mobile)</b>:
-3. <b>Target Service - User Front (Browser, Mobile)</b>:
-4. <b>Geo Service - User Front (Browser, Mobile)</b>:
-5. <b>Social Network Plugin - User Front (Browser, Mobile)</b>:
-6. <b>Social Service - User Front (Browser, Mobile)</b>:
-7. <b>Training Service - User Front (Browser, Mobile)</b>:
-8. <b>Statistics Service - User Front (Browser, Mobile)</b>:
-9. <b>Clients Service - User Front (Browser, Mobile)</b>:
-10. <b>Products Service - User Front (Browser, Mobile)</b>:
+1. <b>Buying Service (1-N) - User Front (Browser, Mobile)</b>: возможность вызова приложения для покупок с фронта, передача информации из пользовательских форм фронта (поиск, параметры товара и т.п.).
+2. <b>Sport Service (1-M) - User Front (Browser, Mobile)</b>: возможность вызова приложений для различных видов спорта с фронта, передача информации из пользовательских форм фронта (поиск по виду спорта).
+3. <b>Target Service - User Front (Browser, Mobile)</b>: передача таргета (рекомендации, промо, новости) на фронт.
+4. <b>Geo Service - User Front (Browser, Mobile)</b>: передача гео-информации на фронт, получение параметров от пользовательских устройств/ браузеров для определения гео-локации.
+5. <b>Social Network Plugin - User Front (Browser, Mobile)</b>: возможность перехода с фронта в соц. сети.
+6. <b>Social Service - User Front (Browser, Mobile)</b>: передача информации на фронт о социальных группах, сбор информации с форм фронта для включения пользователя в группы, поиска друзей, участия в соревнованиях.
+7. <b>Training Service - User Front (Browser, Mobile)</b>: передача на фронт информации о тренировках (рекомендации, тренировочные планы), получение с фронта информации для составления тренировки (параметры, задаваемые пользователем).
+8. <b>Statistics Service - User Front (Browser, Mobile)</b>: раздача статистики на фронт.
+9. <b>Clients Service - User Front (Browser, Mobile)</b>: раздача на фронт информации о пользователях (с учётом настроек приватности и политик защиты ПД), получение информации с форм фронта для регистрации, входа пользователя (авторизации, аутентификации).
+10. <b>Products Service - User Front (Browser, Mobile)</b>: 
 
 ### Внутренние интеграции (между сервисами) ###
 1.
